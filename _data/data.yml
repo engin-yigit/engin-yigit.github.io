@@ -3,284 +3,180 @@
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  position: right
+  about: True
+  education: True
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: Engin Yigit
+  tagline: Energietechnik / Stromnetze
+  avatar: profile.png #profil fotoğrafını /assets/images/ klasörüne "profile.png" adıyla koy
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
+  email: enginyigit.de@gmail.com
+  phone: +49 172 2526665
+  timezone: Europe/Berlin
+  website:
+  linkedin: engin-yigit
+  xing:
+  github: engin-yigit
+  telegram:
   gitlab:
   bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  bluesky:
+  twitter:
+  stack-overflow:
   codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  goodreads:
+  mastodon:
+  hackerrank:
+  leetcode:
+  pdf:
 
   languages:
-    title: Languages
+    title: Sprachen
     info:
-    - idiom: English
-      level: Native
+    - idiom: Deutsch
+      level: "[B2 (Zertifikat Deutsch-Test für den Beruf)](https://results.telc.net/certificate/d26518bc-4231-4c0a-a35f-eb3ff635d98b/756111d6-fcc4-407e-bee2-42c32ef066f7/b4d01169-2321-4147-b7f7-c43f902a0141)"
 
-    - idiom: French
-      level: Professional
+    - idiom: Englisch
+      level: Sehr gut
 
-    - idiom: Spanish
-      level: Professional
+    - idiom: Türkisch
+      level: Muttersprache
 
   interests:
-    title: Interests
+    title: Interessen
     info:
-    - item: Climbing
-      link:
-
-
-    - item: Snowboarding
-      link:
-
-
-    - item: Cooking
-      link:
-
 
 career-profile:
-  title: Career Profile
+  title: Kurzprofil
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Abgeschlossene Promotion in Elektrotechnik mit Schwerpunkt Energietechnik und
+    Analyse elektrischer Energiesysteme. Fokus auf Transformatoren, Netzanalyse
+    und modellgestützte Bewertung von Netzbetriebszuständen. Aktuell erweitere
+    ich meine Kompetenzen praxisnah in Python/pandapower für technische Analysen
+    und Netzberechnungen im Verteilnetzkontext.
+
 education:
-  title: Education
+  title: Ausbildung
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: Doktorgrad (Ph.D.)
+    university: Yeditepe Universität, Istanbul (Türkei)
+    time: 2018 - 2025
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+      Thema: [Emergency Loading of Power Transformers](https://tez.yok.gov.tr/UlusalTezMerkezi/tezDetay.jsp?id=riF3tafYtaQnIh7kSwG1qg&no=IaAnULJ6emUkkcGTXouwZg)
+        - CLPU-Analyse zur thermischen Belastung von Verteiltransformatoren
+        - Entwicklung einer Smart-Grid-basierten VSAC-Laststeuerung zur Begrenzung der Hot-Spot-Temperatur
+  - degree: Master of Science (M.Sc.)
+    university: Sakarya Universität, Sakarya (Türkei)
+    time: 2006 - 2009
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Masterarbeit: [Chaotic analysis of ferroresonance events in power transformers](https://tez.yok.gov.tr/UlusalTezMerkezi/tezDetay.jsp?id=QraInmTG3qyMRLgLK8zFWw&no=AJIQp2u2eTU07xn1TfjXtw)
+        - Analyse von Ferroresonanz-Ereignissen in Leistungstransformatoren mit Methoden der nichtlinearen Dynamik
+  - degree: Bachelor of Science (B.Sc.)
+    university: Sakarya Universität, Sakarya (Türkei)
+    time: 2001 - 2006
+    details: |
+      Studium der Elektro- und Elektroniktechnik
 
 experiences:
-  title: Experiences
+  title: Berufserfahrung
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Berufliche Neuorientierung und fachliche Weiterqualifizierung
+    time: 04.2024 - heute
+    company: Bad Säckingen, Deutschland
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+        - Umzug nach Deutschland und strukturierte berufliche Neuorientierung für den Einstieg in den deutschen Arbeitsmarkt
+        - Sprachliche Weiterqualifizierung durch Integrationskurs und Deutsch-Test für den Beruf (B2); berufliche Sprechpraxis im Aufbau
+        - Abschluss der Promotion (2025) sowie Aufbau technischer Portfolio-Projekte mit Python/pandapower im Bereich Netzanalyse
+  - role: Dozent Elektrotechnik / Energietechnik
+    time: 09.2009 - 03.2024
+    company: Istanbul Arel Universität, Türkei
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+        - Fachbereichsleitung an einer zweijährigen beruflichen Hochschule: Koordination administrativer und organisatorischer Prozesse sowie Planung des Lehrbetriebs und Organisation von Laboren, Praktika und studienbezogenen Abläufen
+        - Lehrtätigkeit im Bereich Elektrotechnik und Betreuung studentischer Arbeiten; strukturierte Vermittlung technischer Inhalte und technischer Dokumentation im Hochschulkontext
+  - role: Wissenschaftlicher Mitarbeiter Elektrotechnik
+    time: 09.2006 - 08.2009
+    company: Istanbul Haliç Universität, Türkei
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+        - Mitarbeit in Forschung und Lehre im Bereich Elektrotechnik sowie organisatorische Unterstützung des Fachbereichs
+        - Verantwortung für die Planung und Betreuung von Laborpraktika sowie technische Dokumentation
 
 certifications:
-  title: Certifications
+  title: Weiterbildung & Zertifikate
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
+  - name: Akbank Machine Learning Bootcamp
+    start: 2024
     end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
+    organization: Global AI Hub
+    credentialid:
+    credentialurl: https://www.globalaihub.com/
+    credentialname: Global AI Hub
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      Einführung in Machine Learning-Algorithmen und Datenanalyse.
+  - name: Aygaz Generative AI Bootcamp (Prompt Engineering)
+    start: 2024
+    end:
+    organization: Global AI Hub
+    credentialid:
+    credentialurl: https://www.globalaihub.com/
+    credentialname: Global AI Hub
+    details: |
+      Grundlagen der generativen KI und praktische Übungen.
 
 projects:
-  title: Projects
+  title: Projekte (Portfolio)
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    Technische Portfolio-Projekte im Bereich Netzanalyse mit Python und pandapower.
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - title: "Netzstudie Niederspannung: Auswirkungen von EV-Ladeleistungen"
+    link: "https://github.com/engin-yigit/P1_EV_Impact_Analysis"
+    tagline: "Szenariobasierte Lastflussanalyse eines Niederspannungsnetzes zur Bewertung von Transformator- und Leitungsauslastung sowie Spannungsprofil unter verschiedenen EV-Szenarien. Kritische EV-Penetration durch Mitigationstest von ca. 12% auf ca. 18% verschoben."
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  - title: "Netzstudie Mittelspannung: PV-Hosting-Capacity"
+    link: "https://github.com/engin-yigit/P2_PV_Hosting_Capacity"
+    tagline: "Szenariobasierte Lastflussanalyse eines Mittelspannungsnetzes zur Bewertung der PV-Hosting-Capacity. Technische Grenze bei ca. 10,3 MW zusätzlicher PV-Leistung, durch Mitigation auf ca. 14,7 MW brutto verschoben."
 
 publications:
-  title: Publications
+  title: Publikationen
   intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+    Konferenzbeiträge im Bereich Transformator-Thermik (IEEE Xplore).
   papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+  - title: Investigation of IEC thermal models of power transformers
+    link: "https://ieeexplore.ieee.org/abstract/document/8266388"
+    authors: Engin Yigit
+    conference: "IEEE Xplore, 2017"
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+  - title: Investigation of oil and winding temperature models of power transformers
+    link: "https://ieeexplore.ieee.org/abstract/document/7851954"
+    authors: Engin Yigit
+    conference: "IEEE Xplore, 2016"
 
 skills:
-  title: Skills &amp; Proficiency
+  title: Kernkompetenzen
 
   toolset:
-  - name: Python & Django
-    level: 98%
+  - name: Python (pandas, numpy, matplotlib, pandapower)
+    level: 90%
 
-  - name: Javascript & jQuery
-    level: 98%
+  - name: Netzanalyse & Lastflussberechnung
+    level: 90%
 
-  - name: Angular
-    level: 98%
+  - name: MATLAB / Simulink
+    level: 75%
 
-  - name: HTML5 & CSS
-    level: 95%
+  - name: Wolfram Mathematica
+    level: 70%
 
-  - name: Ruby on Rails
+  - name: LaTeX / Overleaf
     level: 85%
 
-  - name: Sketch & Photoshop
-    level: 60%
+  - name: Git / GitHub
+    level: 70%
+
+  - name: MS Office (Excel, Word, PowerPoint)
+    level: 90%
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Erstellt von Engin Yigit
