@@ -4,7 +4,7 @@
 
 sidebar:
   position: right
-  about: True
+  about: False
   education: False
 
   # Profile information
@@ -15,7 +15,7 @@ sidebar:
   # Sidebar links
   email: enginyigit.de@gmail.com
   phone: +49 172 2526665
-  timezone: Bad Säckingen/Baden-Württemberg
+  citizenship: Bad Säckingen/Baden-Württemberg
   website:
   linkedin: engin-yigit
   xing:
