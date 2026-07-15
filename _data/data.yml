@@ -5,7 +5,7 @@
 sidebar:
   position: right
   about: True
-  education: True
+  education: False
 
   # Profile information
   name: Engin Yigit
@@ -15,7 +15,7 @@ sidebar:
   # Sidebar links
   email: enginyigit.de@gmail.com
   phone: +49 172 2526665
-  timezone: Europe/Berlin
+  timezone: Bad Säckingen/Baden-Württemberg
   website:
   linkedin: engin-yigit
   xing:
@@ -37,7 +37,7 @@ sidebar:
     title: Sprachen
     info:
     - idiom: Deutsch
-      level: "[B2 (Zertifikat Deutsch-Test für den Beruf)](https://results.telc.net/certificate/d26518bc-4231-4c0a-a35f-eb3ff635d98b/756111d6-fcc4-407e-bee2-42c32ef066f7/b4d01169-2321-4147-b7f7-c43f902a0141)"
+      level: 'B2 (<a href="https://results.telc.net/certificate/d26518bc-4231-4c0a-a35f-eb3ff635d98b/756111d6-fcc4-407e-bee2-42c32ef066f7/b4d01169-2321-4147-b7f7-c43f902a0141" target="_blank">Zertifikat Deutsch-Test für den Beruf</a>)'
 
     - idiom: Englisch
       level: Sehr gut
@@ -111,7 +111,7 @@ certifications:
     end:
     organization: Global AI Hub
     credentialid:
-    credentialurl: https://www.globalaihub.com/
+    credentialurl: "https://www.globalaihub.com/"
     credentialname: Global AI Hub
     details: |
       Einführung in Machine Learning-Algorithmen und Datenanalyse.
@@ -120,7 +120,7 @@ certifications:
     end:
     organization: Global AI Hub
     credentialid:
-    credentialurl: https://www.globalaihub.com/
+    credentialurl: "https://www.globalaihub.com/"
     credentialname: Global AI Hub
     details: |
       Grundlagen der generativen KI und praktische Übungen.
