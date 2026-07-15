@@ -37,7 +37,7 @@ sidebar:
     title: Sprachen
     info:
     - idiom: Deutsch
-      level: 'B2 (<a href="https://results.telc.net/certificate/d26518bc-4231-4c0a-a35f-eb3ff635d98b/756111d6-fcc4-407e-bee2-42c32ef066f7/b4d01169-2321-4147-b7f7-c43f902a0141" target="_blank">Zertifikat Deutsch-Test für den Beruf</a>)'
+      level: '<a href="https://results.telc.net/certificate/d26518bc-4231-4c0a-a35f-eb3ff635d98b/756111d6-fcc4-407e-bee2-42c32ef066f7/b4d01169-2321-4147-b7f7-c43f902a0141" target="_blank">B2 Zertifikat Deutsch-Test für den Beruf</a>'
 
     - idiom: Englisch
       level: Sehr gut
@@ -111,8 +111,8 @@ certifications:
     end:
     organization: Global AI Hub
     credentialid:
-    credentialurl: "https://www.globalaihub.com/"
-    credentialname: Global AI Hub
+    credentialurl: "www.globalaihub.com/"
+    credentialname: 
     details: |
       Einführung in Machine Learning-Algorithmen und Datenanalyse.
   - name: Aygaz Generative AI Bootcamp (Prompt Engineering)
@@ -120,8 +120,8 @@ certifications:
     end:
     organization: Global AI Hub
     credentialid:
-    credentialurl: "https://www.globalaihub.com/"
-    credentialname: Global AI Hub
+    credentialurl: "www.globalaihub.com/"
+    credentialname: 
     details: |
       Grundlagen der generativen KI und praktische Übungen.
 
@@ -140,8 +140,7 @@ projects:
 
 publications:
   title: Publikationen
-  intro: |
-    Konferenzbeiträge im Bereich Transformator-Thermik (IEEE Xplore).
+  intro:
   papers:
   - title: Investigation of IEC thermal models of power transformers
     link: "https://ieeexplore.ieee.org/abstract/document/8266388"
