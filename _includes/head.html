@@ -1,29 +1,50 @@
 <head>
-  <title>{{ site.title }}</title>
+  {% assign page_title = page.title | default: site.title %}
+  {% assign page_description = page.description | default: site.description %}
+  {% assign canonical_url = site.url | append: site.baseurl | append: page.url %}
 
-  <!-- Meta -->
+  <title>{{ page_title | escape }}</title>
+
+  <!-- Basic Meta -->
   <meta charset="utf-8">
-  {% if site.chrome_mobile_color %}
-  <meta name="theme-color" content="{{ site.chrome_mobile_color }}">
-  {% endif%}
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{{ site.description |default: "A beautiful
-  Jekyll theme for creating resume" }}">
+
+  <meta name="description"
+        content="{{ page_description | strip_html | normalize_whitespace | escape }}">
+
+  <meta name="author"
+        content="{{ site.author | default: 'Engin Yigit' | escape }}">
+
+  <link rel="canonical" href="{{ canonical_url }}">
+
+  {% if site.chrome_mobile_color %}
+  <meta name="theme-color" content="{{ site.chrome_mobile_color }}">
+  {% endif %}
+
+  <!-- Open Graph: LinkedIn and social sharing -->
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.author | default: 'Engin Yigit' | escape }}">
+  <meta property="og:title" content="{{ page_title | escape }}">
+  <meta property="og:description"
+        content="{{ page_description | strip_html | normalize_whitespace | escape }}">
+  <meta property="og:url" content="{{ canonical_url }}">
+
+  <!-- Social card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ page_title | escape }}">
+  <meta name="twitter:description"
+        content="{{ page_description | strip_html | normalize_whitespace | escape }}">
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
 
   <!-- Global CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/plugins/bootstrap/css/bootstrap.css">
 
   <!-- Plugins CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/plugins/font-awesome/css/all.css">
-
-  <!-- html2pdf library -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
-    integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <!-- Theme CSS -->
   <link id="theme-style" rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">

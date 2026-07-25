@@ -13,9 +13,10 @@
     </li>
     {% endif %}
 
-    {% if sidebar.citizenship %}
-    <li class="phone"><i class="fas fa-passport"></i>
-      <a href="">{{ sidebar.citizenship }}</a>
+    {% if sidebar.location %}
+    <li class="location">
+    <i class="fas fa-map-marker-alt"></i>
+      <span>{{ sidebar.location }}</span>
     </li>
     {% endif %}
 
@@ -38,8 +39,13 @@
     {% endif %}
 
     {% if sidebar.linkedin %}
-    <li class="linkedin"><i class="fab fa-linkedin"></i>
-      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
+    <li class="linkedin">
+      <i class="fab fa-linkedin"></i>
+      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}"
+         target="_blank"
+         rel="noopener noreferrer">
+        LinkedIn-Profil
+      </a>
     </li>
     {% endif %}
 
@@ -50,8 +56,13 @@
     {% endif %}
 
     {% if sidebar.github %}
-    <li class="github"><i class="fab fa-github"></i>
-      <a href="https://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+    <li class="github">
+      <i class="fab fa-github"></i>
+      <a href="https://github.com/{{ sidebar.github }}"
+         target="_blank"
+         rel="noopener noreferrer">
+        GitHub-Portfolio
+      </a>
     </li>
     {% endif %}
 

@@ -2,20 +2,29 @@
 #Add "layout: compress" here to compress the html code
 ---
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if IE 8]> <html lang="{{ site.lang | default: 'de' }}" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="{{ site.lang | default: 'de' }}" class="ie9"> <![endif]-->
 <!--[if !IE]><!-->
-<html lang="en"> <!--<![endif]-->
+<html lang="{{ site.lang | default: 'de' }}"> <!--<![endif]-->
 {% include head.html %}
 
 <body>
-  <button onclick="print()" class="print-button d-print-none">
-    <i class="fas fa-file-pdf"></i>Print
-  </button>
+  <a href="{{ site.baseurl }}/assets/files/Engin_Yigit_Lebenslauf.pdf"
+   class="cv-download-button d-print-none"
+   download="Engin_Yigit_Lebenslauf.pdf"
+   aria-label="Lebenslauf als PDF herunterladen">
+  <i class="fas fa-file-pdf" aria-hidden="true"></i>
+  <span>Lebenslauf als PDF</span>
+  </a>
 
-  <button onclick="generatePDF()" class="pdf-button d-print-none" id="pdfButton">
-    <i class="fas fa-file-pdf"></i>PDF
-  </button>
+<button type="button"
+        class="theme-toggle d-print-none"
+        id="themeToggle"
+        aria-label="Dunklen Modus aktivieren"
+        title="Darstellung wechseln">
+  <i class="fas fa-moon" aria-hidden="true"></i>
+  <span class="theme-toggle-text">Dark Mode</span>
+</button>
 
   <div class="wrapper">
     {% include sidebar.html %}
@@ -28,7 +37,8 @@
   {% include footer.html %}
 
   {% include scripts.html %}
-  <script src="{{ site.baseurl }}/assets/js/pdf-generator.js"></script>
+
+  <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
 </body>
 
 </html>

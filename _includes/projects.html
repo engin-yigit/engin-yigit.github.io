@@ -12,26 +12,52 @@
 
   {% if projects.intro %}
   <div class="intro">
-      <p>{{ projects.intro }}</p>
+    <p>{{ projects.intro }}</p>
   </div><!--//intro-->
   {% endif %}
 
   {% for project in projects.assignments %}
-    <div class="item">
+  <div class="item">
 
-      <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
-        {% endif %}
-      </span>
+    <div class="project-title">
+      {{ project.title }}
+    </div>
 
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+    {% if project.link or project.report_link %}
+    <div class="project-links">
+
+      {% if project.link %}
+      <a href="{{ project.link }}"
+         target="_blank"
+         rel="noopener noreferrer">
+        <i class="fab fa-github" aria-hidden="true"></i>
+        GitHub
+      </a>
       {% endif %}
 
-    </div><!--//item-->
+      {% if project.link and project.report_link %}
+      <span class="project-link-separator" aria-hidden="true">·</span>
+      {% endif %}
+
+      {% if project.report_link %}
+      <a href="{{ project.report_link }}"
+         target="_blank"
+         rel="noopener noreferrer">
+        <i class="fas fa-file-pdf" aria-hidden="true"></i>
+        Kurzbericht
+      </a>
+      {% endif %}
+
+    </div>
+    {% endif %}
+
+    {% if project.tagline %}
+    <div class="project-tagline">
+      {{ project.tagline }}
+    </div>
+    {% endif %}
+
+  </div><!--//item-->
   {% endfor %}
 
 </section><!--//section-->
