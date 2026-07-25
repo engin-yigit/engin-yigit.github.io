@@ -1,90 +1,72 @@
-<a href="https://jekyll-themes.com">
-<img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
-</a>
+# Engin Yigit – CV & Engineering Portfolio
 
-# Orbit
-> This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
-> Visit [her website](http://themes.3rdwavemedia.com/) for more themes.
+Personal CV and technical portfolio website of Engin Yigit, an electrical engineer focused on power systems, grid analysis, transformers and technical data analysis.
 
-I have made this into a Jekyll Theme. Checkout the live demo [here](https://online-cv.webjeda.com).
+## Live Website
 
-<table>
-  <tr>
-    <th>Desktop</th>
-    <th>Mobile</th>
-  </tr>
-  <tr>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/desktop.png?raw=true" width="600"/>
-    </td>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/mobile.png?raw=true" width="250"/>
-    </td>
-  </tr>
-</table>
+[https://engin-yigit.github.io/](https://engin-yigit.github.io/)
 
-## Installation
+## About
 
-* [Fork](https://github.com/sharu725/online-cv/fork) the repository;
-* Go to settings and set master branch as Github Pages source;
-* Your new site should be ready at `https://<username>.github.io/online-cv/`;
-* Printable version of the site can be found at `https://<username>.github.io/online-cv/print`. Use a third party link https://pdflayer.com/, https://www.web2pdfconvert.com/ etc to get the printable PDF.
+This website presents my professional background, education, technical competencies, engineering portfolio projects and publications.
 
-Change all the details from one place: `_data/data.yml`.
+It is intended as a supplementary online profile alongside my formal PDF résumé.
 
-### To preview/edit locally with docker
+## Portfolio Projects
 
-```sh
-docker-compose up
-```
+### EV Impact Analysis
 
-*docker-compose.yml* file is used to create a container that is reachable under <http://localhost:4000>.
-Changes *_data/data.yml* will be visible after a while.
+Scenario-based load-flow analysis of a low-voltage distribution network using Python and pandapower.
 
-### Local machine
+- Transformer and line loading analysis
+- Voltage profile evaluation
+- EV penetration scenarios
+- Simplified mitigation analysis
 
-* Get the repo into your machine 
+[GitHub Repository](https://github.com/engin-yigit/P1_EV_Impact_Analysis)
 
-```bash
-git clone https://github.com/sharu725/online-cv.git
-```
+### PV Hosting Capacity
 
-* Install required ruby gems
+Scenario-based hosting-capacity analysis of a medium-voltage distribution network using Python and pandapower.
 
-```bash
-bundle install
-```
+- Voltage-rise assessment
+- Transformer and line loading analysis
+- PV hosting-capacity sweep
+- Simplified active-power mitigation
 
-* Serve the site locally
+[GitHub Repository](https://github.com/engin-yigit/P2_PV_Hosting_Capacity)
 
-```bash
-bundle exec jekyll serve
-```
+## Main Features
 
-* Navigate to `http://localhost:4000`
+- Responsive CV and portfolio layout
+- Light and dark mode
+- Downloadable PDF résumé
+- GitHub and technical-report links
+- German-language content
+- Mobile-friendly presentation
+- SEO and social-sharing metadata
+- Redesigned competencies and sidebar sections
 
+## Technologies
 
-## Skins
+- Jekyll
+- Liquid
+- HTML
+- SCSS
+- JavaScript
+- GitHub Pages
 
-There are 6 color schemes available:
+## Theme and Credits
 
-| Blue | Turquoise | Green |
-|---------|---------|---------|
-| <img src="https://online-cv.webjeda.com/assets/images/blue.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/turquoise.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/green.jpg" width="300"/> |
+This website is a customized implementation based on:
 
-| Berry | Orange | Ceramic |
-|---------|---------|---------|
-| <img src="https://online-cv.webjeda.com/assets/images/berry.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/orange.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/ceramic.jpg" width="300"/> |
+- [Online CV Jekyll Theme by sharu725](https://github.com/sharu725/online-cv)
+- [Orbit Resume/CV Design by Xiaoying Riley](https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/)
 
-## Credits
+The original theme structure and design attribution are retained in accordance with the included license conditions.
 
-Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
+The content, portfolio presentation, dark-mode implementation, PDF résumé integration, revised sidebar, SEO configuration and other website customizations were adapted for this personal engineering portfolio.
 
-Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
+## License
 
-Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=sharu725/online-cv&type=Date)](https://star-history.com/#sharu725/online-cv&Date)
-
+See [LICENSE.md](LICENSE.md) for the license terms inherited from the original theme and design.

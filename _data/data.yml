@@ -165,4 +165,8 @@ skills:
   - name: Git / GitHub & LaTeX
 
 footer: >
-  Erstellt von Engin Yigit · Stand: 07/2026
+  Erstellt von Engin Yigit · Stand: 07/2026 ·
+  Basierend auf dem
+  <a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/"
+     target="_blank"
+     rel="noopener noreferrer">Orbit-Design von Xiaoying Riley</a>
