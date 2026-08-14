@@ -1,11 +1,11 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: "Engin Yigit | Elektroingenieur – Netzanalyse & Energietechnik"
+title: "Engin Yigit | Elektrotechnik – Technische Analyse & Modellierung"
 url: "https://engin-yigit.github.io"
 baseurl: ""
 
-description: "Portfolio und Lebenslauf von Engin Yigit, Elektroingenieur mit Promotion und Schwerpunkt Netzanalyse, Energietechnik, Transformatoren und Python/pandapower."
+description: "Portfolio und Lebenslauf von Engin Yigit mit Promotion im Fach Elektrotechnik. Schwerpunkte sind mathematische Modellierung, numerische Analyse und Simulation technischer Systeme sowie Transformatoren und elektrische Energiesysteme."
 
 author: "Engin Yigit"
 lang: "de"

@@ -9,7 +9,7 @@ sidebar:
 
   # Profile information
   name: Engin Yigit
-  tagline: Elektroingenieur | Netzanalyse & Energietechnik
+  tagline: Elektrotechnik / Technische Analyse & Modellierung
   avatar: profile.png #profil fotoğrafını /assets/images/ klasörüne "profile.png" adıyla koy
 
   # Sidebar links
@@ -41,7 +41,7 @@ sidebar:
       link:  "https://results.telc.net/certificate/d26518bc-4231-4c0a-a35f-eb3ff635d98b/756111d6-fcc4-407e-bee2-42c32ef066f7/b4d01169-2321-4147-b7f7-c43f902a0141"
 
     - idiom: Englisch
-      level: Sehr gut, akademisch
+      level: Sehr gut
 
     - idiom: Türkisch
       level: Muttersprache
@@ -56,33 +56,34 @@ sidebar:
 career-profile:
   title: Kurzprofil
   summary: |
-    Abgeschlossene Promotion in Elektrotechnik mit Schwerpunkt Energietechnik und
-    Analyse elektrischer Energiesysteme. Fokus auf Transformatoren, Netzanalyse
-    und modellgestützte Bewertung von Netzbetriebszuständen. Aktuell erweitere
-    ich meine Kompetenzen praxisnah in Python/pandapower für technische Analysen
-    und Netzberechnungen im Verteilnetzkontext.
+    Langjährige Hochschulerfahrung in Elektro- und Energietechnik mit abgeschlossener
+    Promotion im Fach Elektrotechnik. Fachliche Schwerpunkte sind mathematische
+    Modellierung, numerische Analyse und Simulation technischer Systeme sowie
+    Transformatoren und elektrische Energiesysteme. Erfahrung in strukturierter
+    Problemanalyse, technischer Dokumentation, Präsentation und Koordination.
+    Ziel ist der Einstieg in die deutsche Industrie in einer technisch-analytischen
+    Position mit Entwicklungsperspektive; dabei besteht Offenheit für neue Fachgebiete.
 
 education:
   title: Ausbildung
   info:
-  - degree: Doktorgrad (Ph.D.)
-    university: Yeditepe Universität, Istanbul (Türkei)
+  - degree: Promotion (Ph.D.) in Elektrotechnik und Elektronik
+    university: Yeditepe University, Istanbul (Türkei)
     time: 2018–2025
     details: |
       Thema: [Emergency Loading of Power Transformers](https://tez.yok.gov.tr/UlusalTezMerkezi/tezDetay.jsp?id=riF3tafYtaQnIh7kSwG1qg&no=IaAnULJ6emUkkcGTXouwZg)
-        - CLPU-Analyse zur thermischen Belastung von Verteiltransformatoren
-        - Entwicklung einer Smart-Grid-basierten VSAC-Laststeuerung zur Begrenzung der Hot-Spot-Temperatur
-  - degree: Master of Science (M.Sc.)
-    university: Sakarya Universität, Sakarya (Türkei)
+        - CLPU-Analyse zur thermischen Belastung von Verteiltransformatoren sowie Entwicklung einer Smart-Grid-basierten VSAC-Laststeuerung zur Begrenzung der Hot-Spot-Temperatur
+
+  - degree: Masterabschluss in Elektronik
+    university: Sakarya University, Sakarya (Türkei)
     time: 2006–2009
     details: |
       Masterarbeit: [Chaotic analysis of ferroresonance events in power transformers](https://tez.yok.gov.tr/UlusalTezMerkezi/tezDetay.jsp?id=QraInmTG3qyMRLgLK8zFWw&no=AJIQp2u2eTU07xn1TfjXtw)
         - Analyse von Ferroresonanz-Ereignissen in Leistungstransformatoren mit Methoden der nichtlinearen Dynamik
-  - degree: Bachelor of Science (B.Sc.)
-    university: Sakarya Universität, Sakarya (Türkei)
+
+  - degree: Bachelorabschluss in Elektrotechnik und Elektronik
+    university: Sakarya University, Sakarya (Türkei)
     time: 2001–2006
-    details: |
-      Studium der Elektro- und Elektroniktechnik
 
 experiences:
   title: Berufserfahrung
@@ -92,20 +93,23 @@ experiences:
     company: Bad Säckingen, Deutschland
     details: |
         - Umzug nach Deutschland und strukturierte berufliche Neuorientierung für den Einstieg in den deutschen Arbeitsmarkt
-        - Sprachliche Weiterqualifizierung durch Integrationskurs und Deutsch-Test für den Beruf (B2); berufliche Sprechpraxis im Aufbau
-        - Abschluss der Promotion (2025) sowie Aufbau technischer Portfolio-Projekte mit Python/pandapower im Bereich Netzanalyse
+        - Sprachliche Weiterqualifizierung durch Integrationskurs; Deutsch-Test für den Beruf (B2) erfolgreich abgeschlossen
+        - Abschluss der Promotion (2025) sowie praxisorientierter Kompetenzaufbau in Python/pandapower durch dokumentierte Portfolio-Projekte
+
   - role: Dozent Elektrotechnik / Energietechnik
     time: 2009–2024
-    company: Istanbul Arel Universität, Türkei
+    company: Istanbul Arel University, Türkei
     details: |
-        - Fachbereichsleitung an einer zweijährigen beruflichen Hochschule: Koordination administrativer und organisatorischer Prozesse sowie Planung des Lehrbetriebs und Organisation von Laboren, Praktika und studienbezogenen Abläufen
-        - Lehrtätigkeit im Bereich Elektrotechnik und Betreuung studentischer Arbeiten; strukturierte Vermittlung technischer Inhalte und technischer Dokumentation im Hochschulkontext
+        - Lehrtätigkeit in Elektrotechnik und Energietechnik mit eigenständiger Vorbereitung technischer Inhalte, Analysen, Übungen und Präsentationen
+        - Leitung eines Fachbereichs in einem zweijährigen berufsorientierten Studienprogramm: strukturierte Planung des Lehrbetriebs sowie Koordination von Lehrenden, Studierenden, Laboren, Praktika und studienbezogenen Abläufen
+        - Betreuung technischer Arbeiten und Projekte; Aufbereitung, Dokumentation und verständliche Vermittlung komplexer technischer Sachverhalte
+
   - role: Wissenschaftlicher Mitarbeiter Elektrotechnik
     time: 2006–2009
-    company: Istanbul Haliç Universität, Türkei
+    company: Haliç University, Türkei
     details: |
-        - Mitarbeit in Forschung und Lehre im Bereich Elektrotechnik sowie organisatorische Unterstützung des Fachbereichs
-        - Verantwortung für die Planung und Betreuung von Laborpraktika sowie technische Dokumentation
+        - Mitarbeit in Forschung und Lehre im Bereich Elektrotechnik mit Schwerpunkt auf technischer Analyse, Vorbereitung von Lehr- und Laborinhalten sowie Dokumentation
+        - Planung und Betreuung von Laborpraktika sowie organisatorische Unterstützung des Fachbereichs
 
 certifications:
   title: Weiterbildung & Zertifikate
@@ -125,18 +129,19 @@ certifications:
 projects:
   title: Projekte (Portfolio)
   intro: >
-    Technische Portfolio-Projekte im Bereich Netzanalyse mit Python und pandapower.
+    Dokumentierte technische Portfolio- und Weiterbildungsprojekte mit
+    Python/pandapower zur modellgestützten Analyse elektrischer Netze.
 
   assignments:
   - title: "Netzstudie Niederspannung: Auswirkungen von EV-Ladeleistungen"
     link: "https://github.com/engin-yigit/P1_EV_Impact_Analysis"
     report_link: "https://github.com/engin-yigit/P1_EV_Impact_Analysis/blob/main/results/reports/P1_EV_Kurzbericht.pdf"
-    tagline: "Szenariobasierte Lastflussanalyse eines Niederspannungsnetzes zur Bewertung von Transformator- und Leitungsauslastung sowie Spannungsprofil unter verschiedenen EV-Szenarien. Kritische EV-Penetration durch Mitigationstest von ca. 12% auf ca. 18% verschoben."
+    tagline: "Szenariobasierte Lastflussanalyse eines repräsentativen Niederspannungsnetzes zur Bewertung von Transformator- und Leitungsauslastung sowie Spannungsprofilen. Ergänzend wurden eine vereinfachte Leistungsbegrenzung und eine Grenzpenetrationsanalyse untersucht."
 
   - title: "Netzstudie Mittelspannung: PV-Hosting-Capacity"
     link: "https://github.com/engin-yigit/P2_PV_Hosting_Capacity"
     report_link: "https://github.com/engin-yigit/P2_PV_Hosting_Capacity/blob/main/results/reports/P2_PV_Kurzbericht.pdf"
-    tagline: "Szenariobasierte Lastflussanalyse eines Mittelspannungsnetzes zur Bewertung der PV-Hosting-Capacity. Technische Grenze bei ca. 10,3 MW zusätzlicher PV-Leistung, durch Mitigation auf ca. 14,7 MW brutto verschoben."
+    tagline: "Szenariobasierte Lastflussanalyse eines repräsentativen Mittelspannungsnetzes zur Bewertung steigender PV-Einspeisung, technischer Netzgrenzen und der PV-Hosting-Capacity. Ergänzend wurde eine vereinfachte Wirkleistungsbegrenzung als Mitigationsmaßnahme untersucht."
 
 publications:
   title: Publikationen
@@ -152,20 +157,25 @@ skills:
   title: Kernkompetenzen
 
   toolset:
-  - name: Netzanalyse & Lastflussberechnung
+  - name: Mathematische Modellierung & numerische Analyse
 
-  - name: Transformatoren – thermische Analyse & CLPU
+  - name: Simulation technischer Systeme
 
-  - name: Netzmodellierung & Plausibilitätsprüfung
+  - name: Transformatoren & elektrische Energiesysteme
+
+  - name: Planung, Präsentation & Koordination
+
+  - name: Technische Dokumentation & Ergebnisdarstellung
 
   - name: Python / pandapower / pandas
 
-  - name: MATLAB / Simulink
+  - name: MATLAB / Simulink / Wolfram Mathematica
 
   - name: Git / GitHub & LaTeX
 
+
 footer: >
-  Erstellt von Engin Yigit · Stand: 07/2026 ·
+  Erstellt von Engin Yigit · Stand: 08/2026 ·
   Basierend auf dem
   <a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/"
      target="_blank"
