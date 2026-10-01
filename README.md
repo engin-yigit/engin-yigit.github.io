@@ -1,6 +1,6 @@
-# Engin Yigit – CV & Engineering Portfolio
+# Engin Yiğit – CV & Engineering Portfolio
 
-Personal CV and technical portfolio website of Engin Yigit, an electrical engineer focused on power systems, grid analysis, transformers and technical data analysis.
+Personal CV and technical portfolio website of Engin Yiğit, an electrical engineer focused on energy systems, mathematical modelling, simulation, transformers and technical analysis.
 
 ## Live Website
 

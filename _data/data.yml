@@ -8,14 +8,15 @@ sidebar:
   education: False
 
   # Profile information
-  name: Engin Yigit
-  tagline: Elektrotechnik / Technische Analyse & Modellierung
+  name: Engin Yiğit
+  tagline: Elektrotechnik | Energiesysteme, Modellierung & Simulation
   avatar: profile.png #profil fotoğrafını /assets/images/ klasörüne "profile.png" adıyla koy
 
   # Sidebar links
   email: enginyigit.de@gmail.com
   phone: +49 172 2526665
-  location: Bad Säckingen, Baden-Württemberg
+  location: Bad Säckingen, Deutschland
+  work_authorization: "Arbeitserlaubnis: vorhanden"
   website:
   linkedin: engin-yigit
   xing:
@@ -37,11 +38,10 @@ sidebar:
     title: Sprachen
     info:
     - idiom: Deutsch
-      level: B2, zertifiziert
-      link:  "https://results.telc.net/certificate/d26518bc-4231-4c0a-a35f-eb3ff635d98b/756111d6-fcc4-407e-bee2-42c32ef066f7/b4d01169-2321-4147-b7f7-c43f902a0141"
+      level: B2 – Deutsch-Test für den Beruf (telc), Zertifikat vorhanden
 
     - idiom: Englisch
-      level: Sehr gut
+      level: Sehr gute Kenntnisse (Dissertation und Publikationen auf Englisch)
 
     - idiom: Türkisch
       level: Muttersprache
@@ -56,92 +56,89 @@ sidebar:
 career-profile:
   title: Kurzprofil
   summary: |
-    Langjährige Hochschulerfahrung in Elektro- und Energietechnik mit abgeschlossener
-    Promotion im Fach Elektrotechnik. Fachliche Schwerpunkte sind mathematische
-    Modellierung, numerische Analyse und Simulation technischer Systeme sowie
-    Transformatoren und elektrische Energiesysteme. Erfahrung in strukturierter
-    Problemanalyse, technischer Dokumentation, Präsentation und Koordination.
-    Ziel ist der Einstieg in die deutsche Industrie in einer technisch-analytischen
-    Position mit Entwicklungsperspektive; dabei besteht Offenheit für neue Fachgebiete.
+    Promotion in Elektrotechnik sowie langjährige Erfahrung in Hochschullehre,
+    Forschung und akademischer Koordination im Bereich der Elektro- und Energietechnik.
+    Fachliche Schwerpunkte sind mathematische Modellierung, numerische Analyse und
+    Simulation technischer Systeme mit besonderem Bezug zu Transformatoren und
+    elektrischen Energiesystemen. Ziel ist der Einstieg in eine technisch-analytische
+    Position in der deutschen Industrie, insbesondere in den Bereichen Netzberechnung,
+    Simulation und Bewertung elektrischer Systeme.
 
 education:
   title: Ausbildung
   info:
-  - degree: Promotion (Ph.D.) in Elektrotechnik und Elektronik
+  - degree: PhD in Elektrotechnik und Elektronik
     university: Yeditepe University, Istanbul (Türkei)
     time: 2018–2025
     details: |
-      Thema: [Emergency Loading of Power Transformers](https://tez.yok.gov.tr/UlusalTezMerkezi/tezDetay.jsp?id=riF3tafYtaQnIh7kSwG1qg&no=IaAnULJ6emUkkcGTXouwZg)
+      Dissertation: [Emergency loading of power transformers](https://tezara.org/theses/938055#abstract_translated_section)
         - CLPU-Analyse zur thermischen Belastung von Verteiltransformatoren sowie Entwicklung einer Smart-Grid-basierten VSAC-Laststeuerung zur Begrenzung der Hot-Spot-Temperatur
 
   - degree: Masterabschluss in Elektronik
     university: Sakarya University, Sakarya (Türkei)
     time: 2006–2009
     details: |
-      Masterarbeit: [Chaotic analysis of ferroresonance events in power transformers](https://tez.yok.gov.tr/UlusalTezMerkezi/tezDetay.jsp?id=QraInmTG3qyMRLgLK8zFWw&no=AJIQp2u2eTU07xn1TfjXtw)
+      Masterarbeit: [Chaotic analysis of ferroresonance events in power transformers](https://tezara.org/theses/245180#abstract_translated_section)
         - Analyse von Ferroresonanz-Ereignissen in Leistungstransformatoren mit Methoden der nichtlinearen Dynamik
 
-  - degree: Bachelorabschluss in Elektrotechnik und Elektronik
+  - degree: Bachelor in Elektrotechnik und Elektronik
     university: Sakarya University, Sakarya (Türkei)
     time: 2001–2006
 
 experiences:
-  title: Berufserfahrung
+  title: Beruflicher Werdegang
   info:
-  - role: Berufliche Neuorientierung und fachliche Weiterqualifizierung
-    time: 2024–heute
+  - role: Berufliche Neuorientierung und Weiterbildung
+    time: 04.2024–heute
     company: Bad Säckingen, Deutschland
     details: |
-        - Umzug nach Deutschland und strukturierte berufliche Neuorientierung für den Einstieg in den deutschen Arbeitsmarkt
-        - Sprachliche Weiterqualifizierung durch Integrationskurs; Deutsch-Test für den Beruf (B2) erfolgreich abgeschlossen
-        - Abschluss der Promotion (2025) sowie praxisorientierter Kompetenzaufbau in Python/pandapower durch dokumentierte Portfolio-Projekte
+        - Umzug nach Deutschland; Integrations- und Berufssprachkurse bis zum Niveau B2 abgeschlossen
+        - Promotion 2025 abgeschlossen; zwei dokumentierte technische Portfolio-Projekte erstellt
 
-  - role: Dozent Elektrotechnik / Energietechnik
-    time: 2009–2024
+  - role: Dozent für Elektrotechnik und Energietechnik
+    time: 09.2009–03.2024
     company: Istanbul Arel University, Türkei
     details: |
-        - Lehrtätigkeit in Elektrotechnik und Energietechnik mit eigenständiger Vorbereitung technischer Inhalte, Analysen, Übungen und Präsentationen
-        - Leitung eines Fachbereichs in einem zweijährigen berufsorientierten Studienprogramm: strukturierte Planung des Lehrbetriebs sowie Koordination von Lehrenden, Studierenden, Laboren, Praktika und studienbezogenen Abläufen
-        - Betreuung technischer Arbeiten und Projekte; Aufbereitung, Dokumentation und verständliche Vermittlung komplexer technischer Sachverhalte
+        - Eigenständige Lehre in Schaltungstheorie, elektrischen Maschinen, Leistungselektronik und Regelungstechnik sowie Betreuung studentischer Projekte und Laborarbeiten
+        - Leitung des Fachbereichs Elektrizität und Energie (2009–2020) mit Verantwortung für Lehrplanung und Koordination von Lehrenden, Prüfungen, Laboren und Praktika
 
-  - role: Wissenschaftlicher Mitarbeiter Elektrotechnik
-    time: 2006–2009
+  - role: Wissenschaftlicher Mitarbeiter im Bereich Elektrotechnik
+    time: 09.2006–08.2009
     company: Haliç University, Türkei
     details: |
-        - Mitarbeit in Forschung und Lehre im Bereich Elektrotechnik mit Schwerpunkt auf technischer Analyse, Vorbereitung von Lehr- und Laborinhalten sowie Dokumentation
-        - Planung und Betreuung von Laborpraktika sowie organisatorische Unterstützung des Fachbereichs
+        - Mitwirkung im Lehr- und Laborbetrieb sowie organisatorische Unterstützung des Fachbereichs
 
 certifications:
   title: Weiterbildung & Zertifikate
   list:
   - name: Akbank Machine Learning Bootcamp
-    organization: Global AI Hub
-    year: 2024
+    organization: Global AI Hub / Akbank
+    year: 11/2023
     organization_url: "https://www.globalaihub.com/"
-    description: Einführung in Machine Learning-Algorithmen und Datenanalyse.
+    description: Mit 10million.AI; Python for Machine Learning und Abschlussprojekt zum Melbourne Housing Market.
 
-  - name: Aygaz Generative AI Bootcamp (Prompt Engineering)
-    organization: Global AI Hub
-    year: 2024
+  - name: Aygaz Deep Learning Bootcamp
+    organization: Global AI Hub / Aygaz
+    year: 12/2023
     organization_url: "https://www.globalaihub.com/"
-    description: Grundlagen der generativen KI und praktische Übungen.
+    description: Mit 10million.AI; Deep-Learning-Kurse und Abschlussprojekt zur Hunderassenerkennung.
 
 projects:
   title: Projekte (Portfolio)
   intro: >
-    Dokumentierte technische Portfolio- und Weiterbildungsprojekte mit
-    Python/pandapower zur modellgestützten Analyse elektrischer Netze.
+    Dokumentierte technische Portfolio-Projekte mit Python und pandapower zur
+    modellgestützten Analyse elektrischer Netze.
 
   assignments:
-  - title: "Netzstudie Niederspannung: Auswirkungen von EV-Ladeleistungen"
+  - title: "EV-Integration im Niederspannungsnetz"
     link: "https://github.com/engin-yigit/P1_EV_Impact_Analysis"
     report_link: "https://github.com/engin-yigit/P1_EV_Impact_Analysis/blob/main/results/reports/P1_EV_Kurzbericht.pdf"
-    tagline: "Szenariobasierte Lastflussanalyse eines repräsentativen Niederspannungsnetzes zur Bewertung von Transformator- und Leitungsauslastung sowie Spannungsprofilen. Ergänzend wurden eine vereinfachte Leistungsbegrenzung und eine Grenzpenetrationsanalyse untersucht."
+    tagline: "Szenariobasierte Lastflussanalyse eines repräsentativen Niederspannungsnetzes bei variabler EV-Penetration und Gleichzeitigkeit. Im Modell war der Transformator der maßgebende Engpass; die Begrenzung der Ladeleistung von 11 auf 7 kW verschob die erste kritische EV-Penetration von ca. 12 % auf ca. 18 %."
 
-  - title: "Netzstudie Mittelspannung: PV-Hosting-Capacity"
+  - title: "PV-Hosting-Capacity im Mittelspannungsnetz"
     link: "https://github.com/engin-yigit/P2_PV_Hosting_Capacity"
     report_link: "https://github.com/engin-yigit/P2_PV_Hosting_Capacity/blob/main/results/reports/P2_PV_Kurzbericht.pdf"
-    tagline: "Szenariobasierte Lastflussanalyse eines repräsentativen Mittelspannungsnetzes zur Bewertung steigender PV-Einspeisung, technischer Netzgrenzen und der PV-Hosting-Capacity. Ergänzend wurde eine vereinfachte Wirkleistungsbegrenzung als Mitigationsmaßnahme untersucht."
+    tagline: "Hosting-Capacity-Analyse eines repräsentativen Mittelspannungsnetzes bei steigender dezentraler PV-Einspeisung. Im Modell wurde die erste technische Grenze bei ca. 10,3 MW durch die Leitungsauslastung bestimmt; eine Wirkleistungsbegrenzung erhöhte die Brutto-Aufnahmegrenze auf ca. 14,7 MW, während die effektive Einspeiseleistung nahezu unverändert blieb."
 
 publications:
   title: Publikationen
@@ -157,25 +154,25 @@ skills:
   title: Kernkompetenzen
 
   toolset:
-  - name: Mathematische Modellierung & numerische Analyse
+  - name: Mathematische Modellierung & Simulation technischer Systeme
 
-  - name: Simulation technischer Systeme
+  - name: Numerische Analyse, Plausibilitätsprüfung & Ergebnisinterpretation
 
-  - name: Transformatoren & elektrische Energiesysteme
+  - name: Thermische Transformatorenanalyse & Cold Load Pickup (CLPU)
 
-  - name: Planung, Präsentation & Koordination
+  - name: Elektrische Energiesysteme, Schaltungstheorie & Lastflussrechnung
 
-  - name: Technische Dokumentation & Ergebnisdarstellung
-
-  - name: Python / pandapower / pandas
+  - name: Python / pandas / NumPy / Matplotlib / pandapower
 
   - name: MATLAB / Simulink / Wolfram Mathematica
 
-  - name: Git / GitHub & LaTeX
+  - name: LaTeX / Overleaf / Git (Grundlagen) / Linux / MS Office
+
+  - name: Technische Dokumentation, Ergebnisdarstellung, Planung & Koordination
 
 
 footer: >
-  Erstellt von Engin Yigit · Stand: 08/2026 ·
+  Erstellt von Engin Yiğit · Stand: 10/2026 ·
   Basierend auf dem
   <a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/"
      target="_blank"

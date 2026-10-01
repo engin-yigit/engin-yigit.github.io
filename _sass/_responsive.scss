@@ -5,16 +5,40 @@
   }
 
   .sidebar-wrapper {
-    position: static;
-    width: inherit;
+    display: contents;
   }
 
   .wrapper {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    background: $theme-color;
+  }
+
+  .sidebar-wrapper .profile-container {
+    order: 1;
+  }
+
+  .sidebar-wrapper .contact-container {
+    order: 2;
   }
 
   .main-wrapper {
+    order: 3;
     padding: 30px;
+  }
+
+  .sidebar-wrapper .languages-container {
+    order: 4;
+  }
+
+  .sidebar-wrapper .skills-container {
+    order: 5;
+  }
+
+  .sidebar-wrapper .interests-container,
+  .sidebar-wrapper .education-container,
+  .sidebar-wrapper .remove-container {
+    order: 6;
   }
 
   .main-wrapper .time {

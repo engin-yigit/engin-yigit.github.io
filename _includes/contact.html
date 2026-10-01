@@ -20,6 +20,13 @@
     </li>
     {% endif %}
 
+    {% if sidebar.work_authorization %}
+    <li class="work-authorization">
+      <i class="fas fa-id-card" aria-hidden="true"></i>
+      <span>{{ sidebar.work_authorization }}</span>
+    </li>
+    {% endif %}
+
     {% if sidebar.timezone %}
     <li class="timezone"><i class="fas fa-clock"></i>
       <a href="https://worldtimeapi.org/timezone/{{ sidebar.timezone }}" target="_blank">{{ sidebar.timezone }} Timezone</a>

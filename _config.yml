@@ -1,13 +1,13 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: "Engin Yigit | Elektrotechnik – Technische Analyse & Modellierung"
+title: "Engin Yiğit | Elektrotechnik – Energiesysteme, Modellierung & Simulation"
 url: "https://engin-yigit.github.io"
 baseurl: ""
 
-description: "Portfolio und Lebenslauf von Engin Yigit mit Promotion im Fach Elektrotechnik. Schwerpunkte sind mathematische Modellierung, numerische Analyse und Simulation technischer Systeme sowie Transformatoren und elektrische Energiesysteme."
+description: "Portfolio und Lebenslauf von Engin Yiğit mit Promotion in Elektrotechnik und Erfahrung in mathematischer Modellierung, numerischer Analyse und Simulation elektrischer Systeme."
 
-author: "Engin Yigit"
+author: "Engin Yiğit"
 lang: "de"
 
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
