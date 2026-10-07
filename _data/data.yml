@@ -56,12 +56,14 @@ career-profile:
   title: Kurzprofil
   summary: |
     Promotion in Elektrotechnik sowie langjährige Erfahrung in Hochschullehre,
-    Forschung und akademischer Koordination im Bereich der Elektro- und Energietechnik.
+    Forschung und akademischer Koordination in der Elektro- und Energietechnik.
     Fachliche Schwerpunkte sind mathematische Modellierung, numerische Analyse und
     Simulation technischer Systeme mit besonderem Bezug zu Transformatoren und
-    elektrischen Energiesystemen. Ziel ist der Einstieg in eine technisch-analytische
-    Position in der deutschen Industrie, insbesondere in den Bereichen Netzberechnung,
-    Simulation und Bewertung elektrischer Systeme.
+    elektrischen Energiesystemen. Dokumentierte Portfolio-Projekte mit Python und
+    pandapower umfassen Lastflussanalysen in Nieder- und Mittelspannungsnetzen.
+    Ziel ist der Einstieg in eine technisch-analytische Position in der deutschen
+    Energie- und Elektroindustrie, insbesondere in den Bereichen Netzplanung,
+    Netzberechnung, Simulation und Bewertung elektrischer Systeme.
 
 education:
   title: Ausbildung
