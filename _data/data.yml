@@ -10,7 +10,7 @@ sidebar:
   # Profile information
   name: Engin Yiğit
   tagline: Elektrotechnik | Energiesysteme, Modellierung & Simulation
-  avatar: profile.png #profil fotoğrafını /assets/images/ klasörüne "profile.png" adıyla koy
+  avatar: profile.png?v=20261007 #profil fotoğrafı sürüm parametresi tarayıcı önbelleğini yeniler
 
   # Sidebar links
   email: enginyigit.de@gmail.com
